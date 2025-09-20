@@ -11,7 +11,7 @@ You can load any dataset directly into Python using pandas:
 ``` bash
 import pandas as pd
 
-url = "https://raw.githubusercontent.com/ak-rahul/datasets/main/<dataset-name>.csv"
+url = "https://raw.githubusercontent.com/ak-rahul/datasets/master/<filename>.csv"
 df = pd.read_csv(url)
 
 print(df.head())
